@@ -1,6 +1,6 @@
 # ESM-AA Model Official Repository
 
-Welcome to the official repository for the ESM-AA (ESM-All Atom) model. This repository contains the source code and usage instructions for the ESM-AA model, developed based on the official ESM codes by FAIR. You can find the original ESM repository [here](https://github.com/facebookresearch/esm).
+Welcome to the official repository for the ESM-AA (ESM-All Atom) model ([paper link](https://arxiv.org/abs/2403.12995v3)). This repository contains the source code and usage instructions for the ESM-AA model, developed based on the official ESM codes by FAIR. You can find the original ESM repository [here](https://github.com/facebookresearch/esm).
 
 ## Environment Setup
 
@@ -51,3 +51,18 @@ We plan to release code for protein-molecular tasks soon. Stay tuned for updates
 ## Support
 
 For questions and support, please open an issue in the GitHub repository or contact us directly through our provided communication channels.
+
+## Citations <a name="citations"></a>
+
+If you find the models useful in your research, please cite our paper:
+
+```bibtex
+@article{zheng2024multi,
+  title={Multi-Scale Protein Language Model for Unified Molecular Modeling},
+  author={Zheng, Kangjie and Long, Siyu and Lu, Tianyu and Yang, Junwei and Dai, Xinyu and Zhang, Ming and Nie, Zaiqing and Ma, Wei-Ying and Zhou, Hao},
+  journal={bioRxiv},
+  pages={2024--03},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
