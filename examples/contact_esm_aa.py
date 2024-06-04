@@ -284,7 +284,7 @@ sequences = {
     name: msa[0] for name, msa in msas.items()
 }
 
-esm_aa, esm_aa_alphabet = esm.pretrained.esm_aa_t12_35M('/data/kjzheng/esm-aa-35M.pt')
+esm_aa, esm_aa_alphabet = esm.pretrained.esm_aa_t12_35M('path/to/checkpoint')
 esm_aa = esm_aa.eval().cuda()
 esm_aa_batch_converter = esm_aa_alphabet.get_batch_converter()
 
