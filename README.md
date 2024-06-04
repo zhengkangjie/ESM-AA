@@ -25,7 +25,7 @@ To set up the necessary environment for using the ESM-AA model, follow these ste
 
 ## Model Checkpoints
 
-We have made available checkpoints for the ESM-AA model. There is one version available now and we will release more checkpoints of ESM-AA with larger scale soon.:
+We have made available checkpoints for the ESM-AA model. There is one version available now and we will release more checkpoints of ESM-AA with larger scale soon:
 
 - **ESM-AA 35M with Regression Weight**: Download from [this link](https://drive.google.com/drive/folders/13VjjFJ8Ger5zwrEs0iafe7p69y6K1lBo?usp=sharing).
 
