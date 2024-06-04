@@ -51,7 +51,3 @@ We plan to release code for protein-molecular tasks soon. Stay tuned for updates
 ## Support
 
 For questions and support, please open an issue in the GitHub repository or contact us directly through our provided communication channels.
-
----
-
-Thank you for your interest in the ESM-AA model. We look forward to seeing the innovative ways you utilize this model in your research.
