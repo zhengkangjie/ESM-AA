@@ -48,10 +48,6 @@ esm_aa, esm_aa_alphabet = esm.pretrained.esm_aa_t12_35M('path/to/checkpoint')
 
 We plan to release code for protein-molecular tasks soon. Stay tuned for updates and more functionalities!
 
-## Support
-
-For questions and support, please open an issue in the GitHub repository or contact us directly through our provided communication channels.
-
 ## Citations <a name="citations"></a>
 
 If you find the models useful in your research, please cite our paper:
