@@ -310,7 +310,7 @@ for name, inputs in sequences.items():
     esm2_batch_labels, esm2_batch_strs, esm2_batch_tokens = esm2_batch_converter([inputs])
     esm2_batch_tokens = esm2_batch_tokens.to(next(esm2.parameters()).device)
     esm2_predictions[name] = esm2.predict_contacts(esm2_batch_tokens)[0].cpu()
-    metrics = {"id": name, "model": "ESM-AA (Unsupervised)"}
+    metrics = {"id": name, "model": "ESM-2 (Unsupervised)"}
     metrics.update(evaluate_prediction(esm2_predictions[name], contacts[name]))
     esm2_results.append(metrics)
 esm2_results = pd.DataFrame(esm2_results)
